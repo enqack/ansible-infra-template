@@ -1,0 +1,13 @@
+# ansible-roles.galaxy.yml
+
+## from galaxy
+# - src: enqack.bind-consul
+
+## from GitHub, overriding the name and specifying a specific tag
+# - src: https://github.com/enqack/ansible-role-maas-libvirt
+#   version: master
+#   name: maas-libvit-role
+
+## from a webserver, where the role is packaged in a tar.gz
+# - src: https://example.com/project/release.tar.gz
+#   name: project-role

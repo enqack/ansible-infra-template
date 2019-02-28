@@ -1,0 +1,17 @@
+---
+# defaults file for common
+locale_locales:
+  - { locale: en_US.UTF-8, state: present }
+  - { locale: en_DK.UTF-8, state: present }
+
+locale_categories:
+  - { category: LANG, locale: en_US.UTF-8 }
+  - { category: LANGUAGE, locale: en_US.UTF-8 }
+  - { category: LC_TIME, locale: en_DK.UTF-8 }
+  - { category: LC_MESSAGES, locale: C }
+
+ntp_servers: 
+  - 0.us.pool.ntp.org
+  - 1.us.pool.ntp.org
+  - 2.us.pool.ntp.org
+  - 3.us.pool.ntp.org
