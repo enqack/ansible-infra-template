@@ -26,6 +26,10 @@ Run ansible using ansible vault for sudo passwords:
 Playbooks
 ---------
 
+install-python.yml
+
+    Install python prior to gathering facts. Useful for hosts built from bare images without python.
+
 
 Roles
 ---------
@@ -34,4 +38,4 @@ Roles
 Reference
 ---------
 
-[Playbook Best Practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout)
+[Playbooks Best Practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout)
